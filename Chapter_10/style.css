@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    min-height: 100vh;
+    background: linear-gradient(100deg, blue,purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px 100px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#forest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.listItems {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    list-style-type: none;
+    width: 100%;
+}
+
+.listItem{
+    background-color: darkgreen;
+    width: 80%;
+    padding: 5px 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+

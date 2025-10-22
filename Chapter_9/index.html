@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Self Teaching</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .btn {
+        font-size: 23px;
+        color: white;
+        background-color: yellowgreen;
+        padding: 10px 15px;
+        border-radius: 20px;
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+      }
+      body {
+        background-color: rgb(94, 187, 241);
+      }
+
+      .main-section_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: justify;
+        align-items: center;
+        gap: 10px;
+        min-height: 110vh;
+      }
+
+      h1 {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        margin-top: 10rem;
+      }
+
+      p {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        line-height: 1.6;
+      }
+
+      *second_p {
+        margin-left: 20px;
+        text-align: justify;
+      }
+
+      .buttonContainer button {
+        border-radius: 15px;
+        padding: 10px 20px;
+        border: 2px;
+        border-color: black;
+        background-color: goldenrod;
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      .btns {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+      }
+    </style>
+    <script src="./chapter_9.js" defer></script>
+  </head>
+  <body>
+    <section class="main-section">
+      <div class="main-section_container">
+        <h1 id="heading">Hi There!</h1>
+        <p>You're currently in Dom</p>
+        <p id="magic">I might disappear</p>
+        <p id="second_p" onclick="alert('You clicked it')">
+          You're almost there.
+        </p>
+        <div class="buttonContainer">
+          <button id="btn" onclick="toggleDisplay() ">
+            Click for More Stuff
+          </button>
+        </div>
+
+        <!-- Uncomment this when trying to read the docs -->
+        <!-- <button class="btn" onclick="reveal_2(this)">Test Button</button> -->
+
+        <div class="btns">
+          <button id="btn1"  class="btn" onclick="reveal(this)">Button1</button>
+          <button class="btn" onclick="reveal(this)">Button2</button>
+        </div>
+
+        <div class="output">
+            <h1>Hello</h1>
+            <div>Test</div>
+            <ul>
+              <li id="one">One</li>
+              <li class="red">Two</li>
+            </ul>
+            <div>Test</div>
+        </div>
+      </div>
+
+    </section>
+  </body>
+</html>
