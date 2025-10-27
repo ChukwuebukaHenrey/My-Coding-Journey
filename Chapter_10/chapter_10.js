@@ -20,9 +20,9 @@ console.log(heading2);
 
 
 const btns = document.querySelectorAll('button');
-for (let i = 0; i < btns.length + 1; i++) {
+for (let i = 1; i < btns.length ; i++) {
     
-    btns[i].id = 'Btn' + ++i;
+    btns[i].id = 'Btn' + i;
 }
 
 console.log(btns);

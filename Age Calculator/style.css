@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  background: linear-gradient(150deg, blue, yellow);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  color: white;
+}
+
+.maindiv {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  font-size: 2rem;
+  gap: 1rem;
+  width: 50%;
+}
+
+span {
+  color: yellow;
+}
+
+.subdiv {
+  width: 70%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff67;
+  backdrop-filter: blur(10px);
+  align-items: center;
+  color: black;
+  gap: 1rem;
+  padding: 1rem 2rem;
+}
+
+.subdiv2 {
+  background-color: #fff;
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 450;
+  width: 80%;
+}
+
+#calculate {
+  padding: 0.3rem 0.8rem;
+  background-color: yellow;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
